@@ -21,13 +21,13 @@
 		        <li><a href="ListClasses.aspx">Class</a></li>
 		        <li><a href="ListTeachers.aspx">Faculty & Staff</a></li>
                 <li><a href="#">Apply</a></li>
-                <li><a href="ListStudents.aspx">Alumni</a></li>
+                <li><a href="ListStudents.aspx">Students</a></li>
 	        </ul>
 	    </nav>
         </div>
 
     </header>
-    <div class="cwidth">
+    <div class="body-width">
         <form id="form1" runat="server">
             <asp:ContentPlaceHolder ID="body" runat="server">
             </asp:ContentPlaceHolder>
@@ -35,7 +35,17 @@
     </div>
     <footer>
         <div class="cwidth">
-             My Ultra Awesome Footer Here
+        <nav id="foot-navigation">
+	        <h3 class="hidden">Main navigation</h3>
+	        <ul id="foot-menu">
+		        <li><a href="#">About Us</a></li>
+		        <li><a href="#">Careers</a></li>
+		        <li><a href="#">Accessibility</a></li>
+                <li><a href="#">Donor</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Site Map</a></li>
+	        </ul>
+	    </nav>
         </div>
     </footer>
 </body>
