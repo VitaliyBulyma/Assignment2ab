@@ -9,9 +9,23 @@
 </head>
 <body>
     <header>
+        
         <div class="cwidth">
-            Hello Everyone!
+            <img class="logo" src="images\logo.png" alt="a logo for school" />
+            <span id="school-name"><strong>University of Christine</strong></span>
+
+        <nav id="main-navigation">
+	        <h3 class="hidden">Main navigation</h3>
+	        <ul id="main-menu">
+		        <li><a href="#">Home</a></li>
+		        <li><a href="ListClasses.aspx">Class</a></li>
+		        <li><a href="ListTeachers.aspx">Faculty & Staff</a></li>
+                <li><a href="#">Apply</a></li>
+                <li><a href="ListStudents.aspx">Alumni</a></li>
+	        </ul>
+	    </nav>
         </div>
+
     </header>
     <div class="cwidth">
         <form id="form1" runat="server">
