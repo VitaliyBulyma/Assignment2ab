@@ -5,7 +5,7 @@
 <html>
 <head runat="server">
     <title>School System</title>
-    <link rel="stylesheet" type="text/css" href="/Content/style.css" />
+    <link rel="stylesheet" type="text/css" href="/Content/styleNew.css" />
 </head>
 <body>
     <header>
