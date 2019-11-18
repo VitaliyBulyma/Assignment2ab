@@ -3,9 +3,9 @@
 <asp:Content ID="teachers_list" ContentPlaceHolderID="body" runat="server">
     <h1>Teachers</h1>
     <div id="teacher_nav">
-        <asp:label for="teacher_search" runat="server">Search:</asp:label>
+        <asp:label for="teacher_search" runat="server"></asp:label>
         <asp:TextBox ID="teacher_search" runat="server"></asp:TextBox>
-        <asp:Button runat="server" text="submit"/>
+        <asp:Button runat="server" text="Search"/>
         <div id="sql_debugger" runat="server"></div>        
     </div>
 
