@@ -60,7 +60,7 @@
     <section id="confirmbox" runat="server">
     </section>
     <span>
-        <input type="submit" value="Update" />
+        <input type="submit" value="Add/Update" />
     </span>
     <span>
         <input type="submit" value="Delete" />

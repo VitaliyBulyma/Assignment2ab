@@ -8,7 +8,11 @@
         <asp:Button runat="server" text="Search"/>
         <div id="sql_debugger" runat="server"></div>        
     </div>
-
+    <div>
+    <p>Add new teacher</p>
+    <asp:LinkButton runat="server" text="Add New Teacher" href="\TeacherCRUD.aspx"/>
+    <asp:LinkButton runat="server" text="Update Teacher Information" href="\TeacherCRUD.aspx"/>   
+    </div>
     <div class="_table" runat="server">
         <div class="listitem">            
             <div class="col5">FIRST NAME</div>

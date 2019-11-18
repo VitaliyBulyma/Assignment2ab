@@ -12,7 +12,13 @@
         <asp:Button runat="server" text="Search"/>
         <div id="sql_debugger" runat="server"></div>      
     </div>
+    <div>
+    <p>Add new class</p>
+    <asp:LinkButton runat="server" text="Add New Class" href="\ClassCrud.aspx"/>      
+    <asp:LinkButton runat="server" text="Update Class Information" href="\ClassCrud.aspx"/>   
+    </div>
 
+    
     <div class="_table" runat="server">
         <div class="listitem">
             <div class="col5">CLASS CODE</div>

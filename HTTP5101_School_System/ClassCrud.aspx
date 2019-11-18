@@ -74,7 +74,7 @@
     <section id="confirmbox" runat="server">
     </section>
     <span>
-        <input type="button" value="Update" />
+        <input type="button" value="Add/Update" />
         
     </span>
     <span>
