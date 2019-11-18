@@ -31,7 +31,7 @@ namespace HTTP5101_School_System
                 query += " or HIREDATE like '%" + searchkey + "%'";
                 query += " or SALARY like '%" + searchkey + "%'";
             }
-            sql_debugger.InnerHtml = query;
+            //sql_debugger.InnerHtml = query;
 
             var db = new SCHOOLDB();
             List<Dictionary<String, String>> rs = db.List_Query(query);

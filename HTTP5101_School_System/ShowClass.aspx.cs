@@ -29,7 +29,53 @@ namespace HTTP5101_School_System
                     start_date.InnerHtml = class_record["STARTDATE"];
                     finish_date.InnerHtml = class_record["FINISHDATE"];
                     class_name.InnerHtml = class_record["CLASSNAME"];
-
+                    if (teacher_id.InnerHtml == "0")
+                    {
+                        teacher_id.InnerHtml = "Not assigned";
+                    }
+                    else if (teacher_id.InnerHtml == "1")
+                    {
+                        teacher_id.InnerHtml = "Alexander Bennett";
+                    }
+                    else if (teacher_id.InnerHtml == "2")
+                    {
+                        teacher_id.InnerHtml = "Caitlin Cummings";
+                    }
+                    else if (teacher_id.InnerHtml == "3")
+                    {
+                        teacher_id.InnerHtml = "Linda Chan";
+                    }
+                    else if (teacher_id.InnerHtml == "4")
+                    {
+                        teacher_id.InnerHtml = "Lauren Smith";
+                    }
+                    else if (teacher_id.InnerHtml == "5")
+                    {
+                        teacher_id.InnerHtml = "Jessica Morris";
+                    }
+                    else if (teacher_id.InnerHtml == "6")
+                    {
+                        teacher_id.InnerHtml = "Thomas Hawkins";
+                    }
+                    else if (teacher_id.InnerHtml == "7")
+                    {
+                        teacher_id.InnerHtml = "Shannon Barton";
+                    }
+                    else if (teacher_id.InnerHtml == "8")
+                    {
+                        teacher_id.InnerHtml = "Dana Ford";
+                    }
+                    else if (teacher_id.InnerHtml == "9")
+                    {
+                        teacher_id.InnerHtml = "Cody Holland";
+                    }
+                    else if (teacher_id.InnerHtml == "10")
+                    {
+                        teacher_id.InnerHtml = "John Taram";
+                    }
+                    else {
+                        teacher_id.InnerHtml = "There was a mistake finding teacher's name";
+                    }; 
                 }
                 else
                 {
