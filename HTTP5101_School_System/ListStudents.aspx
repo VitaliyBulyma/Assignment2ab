@@ -10,8 +10,8 @@
     </div>
     <div class="edit-buttons">
     
-        <asp:Button class="button" runat="server" text="Add New Student" href="\StudentCRUD.aspx"/>
-        <asp:Button class="button" runat="server" text="Update Student Information" href="\StudentCRUD.aspx"/>
+        <asp:LinkButton class="button" runat="server" text="Add New Student" href="\StudentCRUD.aspx"/>
+        <asp:LinkButton class="button" runat="server" text="Update Student Information" href="\StudentCRUD.aspx"/>
         
     </div>
     <div class="_table" runat="server">

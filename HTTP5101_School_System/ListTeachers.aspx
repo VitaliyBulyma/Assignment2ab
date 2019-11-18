@@ -9,8 +9,8 @@
         <div id="sql_debugger" runat="server"></div>        
     </div>
     <div class="edit-buttons">
-        <asp:Button class="button" runat="server" text="Add New Teacher" href="\TeacherCRUD.aspx"/>
-        <asp:Button class="button" runat="server" text="Update Teacher Information" href="\TeacherCRUD.aspx"/>   
+        <asp:LinkButton class="button" runat="server" text="Add New Teacher" href="\TeacherCRUD.aspx"/>
+        <asp:LinkButton class="button" runat="server" text="Update Teacher Information" href="\TeacherCRUD.aspx"/>   
     </div>
     <div class="_table" runat="server">
         <div class="listitem">            
