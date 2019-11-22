@@ -13,6 +13,7 @@
         <div class="cwidth">
             <!-- The logo was found on Google with a "Generic Logo" Search. I forgot to reference the link
                 and I can't seem to find it again. -Ossy -->
+            <!-- The code has been referenced from Christine Bittle's HTTP5101 Crud Essential Lessons-->
             <img class="logo" src="images\logo.png" alt="a logo for school" />
             <span id="school-name"><strong>University of Christine</strong></span>
 
