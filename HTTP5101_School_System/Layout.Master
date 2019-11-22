@@ -11,6 +11,8 @@
     <header>
         
         <div class="cwidth">
+            <!-- The logo was found on Google with a "Generic Logo" Search. I forgot to reference the link
+                and I can't seem to find it again. -Ossy -->
             <img class="logo" src="images\logo.png" alt="a logo for school" />
             <span id="school-name"><strong>University of Christine</strong></span>
 
