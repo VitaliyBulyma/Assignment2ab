@@ -23,8 +23,16 @@ footer {
     margin-top: 50px;
 }
 
-.button{
-    margin: 10px 10px 10px 10px;
+.button {
+    margin: 10px 10px 20px 10px;
+    background-color: #e9d898;
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px 10px 10px;
+}
+.button:hover{
+    background-color:darkslategrey;
+    color: white;
 }
 
 .edit-buttons{
