@@ -130,6 +130,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Content\style.css" />
     <Content Include="Content\styleNew.css" />
+    <Content Include="CUHomePage.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -191,6 +192,13 @@
     </Compile>
     <Compile Include="ClassCrud.aspx.designer.cs">
       <DependentUpon>ClassCrud.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CUHomePage.aspx.cs">
+      <DependentUpon>CUHomePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CUHomePage.aspx.designer.cs">
+      <DependentUpon>CUHomePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

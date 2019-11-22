@@ -121,6 +121,9 @@ footer {
 .hidden {
     display: none;
 }
+.banner{
+    width: 100%;
+}
 
 
 /*CSS FOR TABLE-LIKE STYLING*/
